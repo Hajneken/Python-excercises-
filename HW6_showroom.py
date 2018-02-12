@@ -3,7 +3,7 @@ class Node:
     def __init__(self, nextNode, prevNode, data):
         self.nextNode = None # na zacatku proto none
         self.prevNode = None # na konci proto none
-        self.data = data # tam budou data vzdycky zmrde, objekt Car
+        self.data = data # tam budou data vzdycky, objekt Car
  
  
 class LinkedList:
