@@ -4,10 +4,6 @@ def permutations(array):
         return [[]]
     elif len(array) == 1:
         return [array]
-    # list = []
-    # for i in permutations(array):
-    #     list.append(i)
-    #     return
     else:
         list = [] #empty list
         for i in range(len(array)):
